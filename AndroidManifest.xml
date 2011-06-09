@@ -73,7 +73,7 @@
 
 	<!-- God Mode -->
 	<activity android:name="com.t3hh4xx0r.god_mode"
-	        android:label=".GodMode"
+	        android:label=".MainMenu"
 		android:clearTaskOnLaunch="true">
 	    <intent-filter>
 		<action android:name="android.intent.action.MAIN" />
