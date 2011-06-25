@@ -9,7 +9,7 @@ public class ThanksSteve extends Activity {
    public void onCreate(Bundle savedInstanceState) {
        super.onCreate(savedInstanceState);
        TextView tv = new TextView(this);
-       tv.setText("Designed and created my website for free, and still maintains it." + "\n-OMFGB bootanimation." + "\n-God Mode icon");
+       tv.setText("Designed and created my website for free, and still maintains it." + "\n-OMFGB bootanimation." + "\n-God Mode icon" + "\n-Custom wallpapers");
        setContentView(tv);
    }
 }
