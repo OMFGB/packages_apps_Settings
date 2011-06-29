@@ -78,6 +78,12 @@
                 android:title="@string/thanks_main">
 
         <PreferenceScreen
+                    android:key="thanks_drod"
+                    android:title="@string/thanks_drod">
+                <intent android:action="android.settings.THANKS_DROD" />
+        </PreferenceScreen>
+
+        <PreferenceScreen
                     android:key="thanks_poitee"
                     android:title="@string/thanks_poitee">
                 <intent android:action="android.settings.THANKS_POITEE" />

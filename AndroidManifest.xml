@@ -372,6 +372,15 @@
             </intent-filter>
         </activity>
 
+       <activity android:name="ThanksDrod"
+                android:label="@string/thanks_drod"
+                android:theme="@*android:style/Theme.Dialog.Alert">
+            <intent-filter>
+                <action android:name="android.settings.THANKS_DROD" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
        <activity android:name="ThanksJb413"
                 android:label="@string/thanks_jb413"
                 android:theme="@*android:style/Theme.Dialog.Alert">
