@@ -60,15 +60,33 @@
                 android:title="@string/changelog_main">
 
         <PreferenceScreen
-                    android:key="changelog_130"
-                    android:title="@string/changelog_130">
-                <intent android:action="android.settings.130" />
+                    android:key="changelog_121"
+                    android:title="@string/changelog_121">
+                <intent android:action="android.settings.121" />
             </PreferenceScreen>
 
         <PreferenceScreen
                     android:key="changelog_120"
                     android:title="@string/changelog_120">
                 <intent android:action="android.settings.120" />
+            </PreferenceScreen>
+
+        <PreferenceScreen
+                    android:key="changelog_112"
+                    android:title="@string/changelog_112">
+                <intent android:action="android.settings.112" />
+            </PreferenceScreen>
+
+        <PreferenceScreen
+                    android:key="changelog_111"
+                    android:title="@string/changelog_111">
+                <intent android:action="android.settings.111" />
+            </PreferenceScreen>
+
+        <PreferenceScreen
+                    android:key="changelog_100"
+                    android:title="@string/changelog_100">
+                <intent android:action="android.settings.100" />
             </PreferenceScreen>
         </PreferenceScreen>
 
@@ -81,6 +99,12 @@
                     android:key="thanks_drod"
                     android:title="@string/thanks_drod">
                 <intent android:action="android.settings.THANKS_DROD" />
+        </PreferenceScreen>
+
+        <PreferenceScreen
+                    android:key="thanks_birdman"
+                    android:title="@string/thanks_birdman">
+                <intent android:action="android.settings.THANKS_BIRDMAN" />
         </PreferenceScreen>
 
         <PreferenceScreen
@@ -130,8 +154,14 @@
                     android:title="@string/thanks_mr">
                 <intent android:action="android.settings.THANKS_MR" />
         </PreferenceScreen>
-
+        
         <PreferenceScreen
+                    android:key="thanks_Framework43"
+                    android:title="@string/thanks_Framework43">
+                <intent android:action="android.settings.THANKS_FRAMEWORK43" />
+        </PreferenceScreen>  
+
+         <PreferenceScreen
                     android:key="thanks_peter"
                     android:title="@string/thanks_peter">
                 <intent android:action="android.settings.THANKS_PETER" />

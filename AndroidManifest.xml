@@ -352,17 +352,14 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-        <activity android:name="Changelog130"
-                android:label="@string/changelog_130"
+        <activity android:name="Changelog121"
+                android:label="@string/changelog_121"
                 android:theme="@*android:style/Theme.Dialog.Alert">
             <intent-filter>
-                <action android:name="android.settings.130" />
+                <action android:name="android.settings.122" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-
 	<activity android:name="Changelog120"
                 android:label="@string/changelog_120"
                 android:theme="@*android:style/Theme.Dialog.Alert">
@@ -371,12 +368,43 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
+        <activity android:name="Changelog112"
+                android:label="@string/changelog_112"
+                android:theme="@*android:style/Theme.Dialog.Alert">
+            <intent-filter>
+                <action android:name="android.settings.112" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="Changelog111"
+                android:label="@string/changelog_111"
+                android:theme="@*android:style/Theme.Dialog.Alert">
+            <intent-filter>
+                <action android:name="android.settings.111" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="Changelog100"
+                android:label="@string/changelog_100"
+                android:theme="@*android:style/Theme.Dialog.Alert">
+            <intent-filter>
+                <action android:name="android.settings.100" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
        <activity android:name="ThanksDrod"
                 android:label="@string/thanks_drod"
                 android:theme="@*android:style/Theme.Dialog.Alert">
             <intent-filter>
                 <action android:name="android.settings.THANKS_DROD" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+       <activity android:name="ThanksBirdman"
+                android:label="@string/thanks_birdman"
+                android:theme="@*android:style/Theme.Dialog.Alert">
+            <intent-filter>
+                <action android:name="android.settings.THANKS_BIRDMAN" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -470,6 +498,14 @@
                 android:theme="@*android:style/Theme.Dialog.Alert">
             <intent-filter>
                 <action android:name="android.settings.THANKS_MR" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ThanksFramework43"
+                android:label="@string/thanks_Framework43"
+                android:theme="@*android:style/Theme.Dialog.Alert">
+            <intent-filter>
+                <action android:name="android.settings.THANKS_FRAMEWORK43" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
