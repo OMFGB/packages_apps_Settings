@@ -17,7 +17,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/about_rom_settings">
 
-        <!-- OMGB Rom version -->
+        <!-- OMFGB Rom version -->
         <Preference android:key="rom_version" 
                 style="?android:preferenceInformationStyle"
                 android:title="@string/rom_version"
