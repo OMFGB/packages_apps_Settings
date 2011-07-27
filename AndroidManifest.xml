@@ -501,7 +501,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="Framework43"
+        <activity android:name="ThanksFramework43"
                 android:label="@string/thanks_Framework43"
                 android:theme="@*android:style/Theme.Dialog.Alert">
             <intent-filter>
