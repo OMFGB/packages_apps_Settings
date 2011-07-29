@@ -353,11 +353,11 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="Changelog130"
-                android:label="@string/changelog_130"
+        <activity android:name="Changelog131"
+                android:label="@string/changelog_131"
                 android:theme="@*android:style/Theme.Dialog.Alert">
             <intent-filter>
-                <action android:name="android.settings.130" />
+                <action android:name="android.settings.131" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
