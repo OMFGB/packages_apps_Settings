@@ -42,7 +42,6 @@ public class DevelopmentSettings extends PreferenceActivity
     private static final String KILL_APP_LONGPRESS_BACK = "kill_app_longpress_back";
 
     private CheckBoxPreference mEnableAdb;
-    private CheckBoxPreference mAdbNotify;
     private CheckBoxPreference mKeepScreenOn;
     private CheckBoxPreference mAllowMockLocation;
     private CheckBoxPreference mKillAppLongpressBack;
@@ -59,7 +58,6 @@ public class DevelopmentSettings extends PreferenceActivity
         addPreferencesFromResource(R.xml.development_prefs);
 
         mEnableAdb = (CheckBoxPreference) findPreference(ENABLE_ADB);
-        mAdbNotify = (CheckBoxPreference) findPreference(ADB_NOTIFY);
         mKeepScreenOn = (CheckBoxPreference) findPreference(KEEP_SCREEN_ON);
         mAllowMockLocation = (CheckBoxPreference) findPreference(ALLOW_MOCK_LOCATION);
         mKillAppLongpressBack = (CheckBoxPreference) findPreference(KILL_APP_LONGPRESS_BACK);
@@ -71,10 +69,6 @@ public class DevelopmentSettings extends PreferenceActivity
 
         mEnableAdb.setChecked(Settings.Secure.getInt(getContentResolver(),
                 Settings.Secure.ADB_ENABLED, 0) != 0);
-        
-        mAdbNotify.setChecked(Settings.Secure.getInt(getContentResolver(),
-                Settings.Secure.ADB_NOTIFY, 1) != 0);
-                
         mKeepScreenOn.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.STAY_ON_WHILE_PLUGGED_IN, 0) != 0);
         mAllowMockLocation.setChecked(Settings.Secure.getInt(getContentResolver(),
@@ -105,9 +99,6 @@ public class DevelopmentSettings extends PreferenceActivity
             } else {
                 Settings.Secure.putInt(getContentResolver(), Settings.Secure.ADB_ENABLED, 0);
             }
-        } else if (preference == mAdbNotify) {
-            Settings.Secure.putInt(getContentResolver(), Settings.Secure.ADB_NOTIFY,
-                    mAdbNotify.isChecked() ? 1 : 0);
         } else if (preference == mKeepScreenOn) {
             Settings.System.putInt(getContentResolver(), Settings.System.STAY_ON_WHILE_PLUGGED_IN, 
                     mKeepScreenOn.isChecked() ? 
